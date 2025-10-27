@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/auth")
 public class authController {
+
     @GetMapping("/login")
     public String login(){
         return "login successfully !";
